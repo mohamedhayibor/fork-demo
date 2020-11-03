@@ -1,0 +1,39 @@
+{
+  "_format": "hh-sol-cache-1",
+  "files": {
+    "/c/Users/vogon/workspace/personal/fork-demo/contracts/Aggregator.sol": {
+      "lastModificationDate": 1603804590210,
+      "sourceName": "contracts/Aggregator.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "Aggregator",
+        "IRouter"
+      ]
+    }
+  }
+}

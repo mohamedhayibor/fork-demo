@@ -1,11 +1,11 @@
 {
   "_format": "hh-sol-cache-1",
   "files": {
-    "/c/Users/vogon/workspace/personal/fork-demo/contracts/Aggregator.sol": {
-      "lastModificationDate": 1603804590210,
+    "/Users/mo/Desktop/fork-demo/contracts/Aggregator.sol": {
+      "lastModificationDate": 1604466381000,
       "sourceName": "contracts/Aggregator.sol",
       "solcConfig": {
-        "version": "0.7.3",
+        "version": "0.7.4",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -32,7 +32,7 @@
       ],
       "artifacts": [
         "Aggregator",
-        "IRouter"
+        "Router"
       ]
     }
   }

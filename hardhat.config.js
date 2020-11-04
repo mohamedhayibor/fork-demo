@@ -1,5 +1,5 @@
 require("@nomiclabs/hardhat-waffle");
-const URL = process.env.URL
+require('dotenv').config();
 
 // You need to export an object to set up your config
 // Go to https://hardhat.org/config/ to learn more
@@ -11,7 +11,7 @@ module.exports = {
   networks: {
     hardhat: {
       forking: {
-        url: URL
+        url: `https://mainnet.infura.io/v3/${ process.env.INFURA_ID }`
       }
     }
   },

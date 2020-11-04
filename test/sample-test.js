@@ -14,5 +14,7 @@ describe("Aggregator", function() {
     const prices = await agg.getPrices([WETH, DAI], 100)
     console.log("Uni: " + prices[0].toString());
     console.log("Sushi: " + prices[1].toString());
+
+    expect(prices[0].toString()).to.equal(prices[1].toString());
   });
 });

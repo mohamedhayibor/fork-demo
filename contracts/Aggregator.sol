@@ -9,9 +9,9 @@ contract Aggregator {
   Router uniRouter;
   Router sushiRouter;
 
-  constructor(address uniRouter, address sushiRouter) {
-    uniRouter = Router(uniRouter);
-    sushiRouter = Router(sushiRouter);
+  constructor(address _uniRouter, address _sushiRouter) {
+    uniRouter = Router(_uniRouter);
+    sushiRouter = Router(_sushiRouter);
   }
 
   function getPrices(address[] memory path, uint inputAmount) public view returns (uint[2] memory prices) {
